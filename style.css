@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&family=Labrada:wght@300;400;600&family=Montserrat:wght@200&family=Roboto&family=Ubuntu&display=swap');
+
+body {
+  background-image: url("images/wallpaper.jpg");
+  color: #fdfdff;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+h1, h2 {
+  color: #fdfdff;
+  font-family: 'Labrada';
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #C6C5B9;
+}
+
+a:hover {
+  color: #62929E;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.blue-card {
+  width: 70%;
+  margin: 0 auto;
+  background-image: url("images/blue-texture.jpg");
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgba(98,146,158,0.3);
+}
+
+.image-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.image-box {
+  height: 130px;
+  width: 100px;
+  border-radius: 5px;
+  border: 3px solid rgba(0,0,0,0.3);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
